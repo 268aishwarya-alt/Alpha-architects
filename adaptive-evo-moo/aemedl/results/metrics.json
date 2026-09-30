@@ -1,0 +1,132 @@
+{
+  "sudden": {
+    "Static MLP": {
+      "accuracy": 0.4648587570621469,
+      "post_drift_accuracy": 0.36850000000000005,
+      "recovery_chunks": 3.3333333333333335,
+      "seconds": 0.1353632730000148
+    },
+    "Online SGD MLP": {
+      "accuracy": 0.7885875706214689,
+      "post_drift_accuracy": 0.6643333333333333,
+      "recovery_chunks": 2.75,
+      "seconds": 0.15036765233329183
+    },
+    "Sliding-window MLP": {
+      "accuracy": 0.7612429378531074,
+      "post_drift_accuracy": 0.5791666666666666,
+      "recovery_chunks": 4.0,
+      "seconds": 0.22394612400004613
+    },
+    "Adaptive Evo-MOO (ours)": {
+      "accuracy": 0.8007344632768362,
+      "post_drift_accuracy": 0.6828333333333333,
+      "recovery_chunks": 2.25,
+      "seconds": 5.691167646000015
+    }
+  },
+  "gradual": {
+    "Static MLP": {
+      "accuracy": 0.48152542372881363,
+      "post_drift_accuracy": 0.4243333333333334,
+      "recovery_chunks": 0.8333333333333334,
+      "seconds": 0.14007653366661543
+    },
+    "Online SGD MLP": {
+      "accuracy": 0.7887005649717514,
+      "post_drift_accuracy": 0.6705,
+      "recovery_chunks": 2.4166666666666665,
+      "seconds": 0.15488848499997707
+    },
+    "Sliding-window MLP": {
+      "accuracy": 0.7622033898305086,
+      "post_drift_accuracy": 0.6038333333333333,
+      "recovery_chunks": 1.6666666666666667,
+      "seconds": 0.2385793216666722
+    },
+    "Adaptive Evo-MOO (ours)": {
+      "accuracy": 0.8008474576271186,
+      "post_drift_accuracy": 0.6801666666666666,
+      "recovery_chunks": 1.4166666666666667,
+      "seconds": 5.361021861999991
+    }
+  },
+  "incremental": {
+    "Static MLP": {
+      "accuracy": 0.4892655367231639,
+      "post_drift_accuracy": 0.44050000000000006,
+      "recovery_chunks": 0.9166666666666666,
+      "seconds": 0.14063256566669224
+    },
+    "Online SGD MLP": {
+      "accuracy": 0.7980790960451977,
+      "post_drift_accuracy": 0.7023333333333333,
+      "recovery_chunks": 1.5833333333333333,
+      "seconds": 0.14502332366654022
+    },
+    "Sliding-window MLP": {
+      "accuracy": 0.7686440677966101,
+      "post_drift_accuracy": 0.6286666666666667,
+      "recovery_chunks": 0.8333333333333334,
+      "seconds": 0.24028322333341143
+    },
+    "Adaptive Evo-MOO (ours)": {
+      "accuracy": 0.8072316384180791,
+      "post_drift_accuracy": 0.7094999999999999,
+      "recovery_chunks": 1.0,
+      "seconds": 5.133361565333341
+    }
+  },
+  "recurring": {
+    "Static MLP": {
+      "accuracy": 0.7191525423728814,
+      "post_drift_accuracy": 0.6890000000000001,
+      "recovery_chunks": 2.5,
+      "seconds": 0.154050021000027
+    },
+    "Online SGD MLP": {
+      "accuracy": 0.8166101694915254,
+      "post_drift_accuracy": 0.7408333333333333,
+      "recovery_chunks": 2.4166666666666665,
+      "seconds": 0.1703796216665978
+    },
+    "Sliding-window MLP": {
+      "accuracy": 0.7987005649717513,
+      "post_drift_accuracy": 0.6764999999999999,
+      "recovery_chunks": 3.6666666666666665,
+      "seconds": 0.27225475333329996
+    },
+    "Adaptive Evo-MOO (ours)": {
+      "accuracy": 0.8192090395480225,
+      "post_drift_accuracy": 0.7293333333333334,
+      "recovery_chunks": 2.1666666666666665,
+      "seconds": 5.198175450666743
+    }
+  },
+  "covariate": {
+    "Static MLP": {
+      "accuracy": 0.8396045197740113,
+      "post_drift_accuracy": 0.8245,
+      "recovery_chunks": 1.3333333333333333,
+      "seconds": 0.15507760899989384
+    },
+    "Online SGD MLP": {
+      "accuracy": 0.8747457627118643,
+      "post_drift_accuracy": 0.8574999999999999,
+      "recovery_chunks": 1.5833333333333333,
+      "seconds": 0.1504765419999785
+    },
+    "Sliding-window MLP": {
+      "accuracy": 0.8794350282485878,
+      "post_drift_accuracy": 0.86,
+      "recovery_chunks": 1.1666666666666667,
+      "seconds": 0.2327885529999397
+    },
+    "Adaptive Evo-MOO (ours)": {
+      "accuracy": 0.8782485875706215,
+      "post_drift_accuracy": 0.8523333333333333,
+      "recovery_chunks": 1.3333333333333333,
+      "seconds": 4.5756260319999456
+    }
+  }
+}
